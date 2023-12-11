@@ -1,0 +1,251 @@
+[hidden] {
+    display: none;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.app-title {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 44px;
+    font-size: 2.0em; /* Adjust the font size as needed */
+    color: #fff; /* Text color for the app name */
+    float: left; /* Align links to the left */
+    padding-right: 3vw;
+    font-weight: bold;
+    font-family:
+            'Chalkduster', fantasy,
+    'Comic Sans MS', cursive;
+}
+
+.app-title:hover {
+    cursor: pointer;
+}
+
+body {
+    font-size: 10px;
+    font-family: Tahoma, Arial;
+}
+
+nav {
+    width: 100%;
+    background-color: #005035;
+    height: 44px;
+    padding: 0 40px;
+}
+
+nav ul,
+nav ul li {
+    margin: 0;
+    padding: 0 ;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 44px;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+}
+
+nav ul li a:hover {
+    background-color: #B29700;
+    color: white;
+    border-radius: 3px; /* Adjust the radius value as needed */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effect */
+
+}
+
+/* Rest of your CSS */
+
+nav ul.left-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    float: left; /* Align links to the left */
+}
+
+nav ul.right-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    float: right; /* Align links to the right */
+}
+
+
+
+
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 44px;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #fff;
+    margin: 0;
+}
+
+/* Add the hover style here if needed */
+nav ul li a:hover {
+    background-color: #B29700;
+    color: white;
+    border-radius: 10px; /* Adjust the radius value as needed */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effect */
+
+}
+
+/* Dropdown container styles */
+.dropdown {
+    position: relative;
+    display: inline-flex; /* Use flexbox */
+    align-items: center; /* Vertically center the content */
+    margin-right: 10px;
+    margin-top: 3px;
+    text-align: center;
+    z-index: 1; /* Set a higher z-index value */
+}
+
+
+/* Dropdown toggle button styles */
+.dropdown-toggle {
+    background-color: #005035;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.dropdown-toggle:hover {
+    background-color: #B29700;
+    color: white;
+    border-radius: 10px; /* Adjust the radius value as needed */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effect */
+}
+
+
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Hover effect for dropdown menu items */
+.dropdown-menu li:hover {
+    background-color: #B29700;
+    color: white;
+    border-radius: 10px; /* Adjust the radius value as needed */
+    padding: 10px; /* Include padding */
+    margin: 0; /* Remove margin */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effect */
+
+}
+
+
+/* Add these styles to your existing CSS file or create a new one */
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links li {
+    margin-right: 20px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.links a:hover {
+    background-color: #b29700;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+    .app-title {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 44px;
+        left: 0;
+        width: 100%;
+        background-color: #005035;
+        z-index: 1;
+    }
+
+    .links.open {
+        display: flex;
+    }
+
+    .links li {
+        margin: 0;
+        padding: 10px;
+        border-bottom: 1px solid #fff;
+        text-align: center;
+    }
+
+    .links li:last-child {
+        border-bottom: none;
+    }
+}
+
+
+

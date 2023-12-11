@@ -1,0 +1,134 @@
+{
+  "budgets": [
+    {
+      "documentId": 1,
+      "budgetName": "Budget 3",
+      "items": 2,
+      "totalBudget": 1500,
+      "itemList": {
+        "items": [
+          {
+            "documentId": 1,
+            "itemName": "Test1",
+            "itemValue": 201,
+            "itemColor": "#7EF311"
+          },
+          {
+            "documentId": 2,
+            "itemName": "Test2",
+            "itemValue": 200,
+            "itemColor": "#4E64D9"
+          }
+        ]
+      }
+    },
+    {
+      "documentId": 2,
+      "budgetName": "Budget 2",
+      "items": 3,
+      "totalBudget": 500,
+      "itemList": {
+        "items": [
+          {
+            "documentId": 3,
+            "itemName": "Test 1",
+            "itemValue": 100,
+            "itemColor": "#55A96B"
+          },
+          {
+            "documentId": 4,
+            "itemName": "Test 3",
+            "itemValue": 70,
+            "itemColor": "#5C0576"
+          },
+          {
+            "documentId": 5,
+            "itemName": "Test 2",
+            "itemValue": 140,
+            "itemColor": "#CBE8AB"
+          }
+        ]
+      }
+    },
+    {
+      "documentId": 3,
+      "budgetName": "Smoky Mountains Trip",
+      "items": 5,
+      "totalBudget": 1000,
+      "itemList": {
+        "items": [
+          {
+            "documentId": 6,
+            "itemName": "Accomdation",
+            "itemValue": 250,
+            "itemColor": "#70C4C5"
+          },
+          {
+            "documentId": 7,
+            "itemName": "Gas",
+            "itemValue": 100,
+            "itemColor": "#99E905"
+          },
+          {
+            "documentId": 8,
+            "itemName": "Food",
+            "itemValue": 200,
+            "itemColor": "#3F48B7"
+          },
+          {
+            "documentId": 9,
+            "itemName": "Zip Line",
+            "itemValue": 50,
+            "itemColor": "#42A537"
+          },
+          {
+            "documentId": 10,
+            "itemName": "Car",
+            "itemValue": 300,
+            "itemColor": "#860843"
+          }
+        ]
+      }
+    },
+    {
+      "documentId": "4",
+      "budgetName": "Budget 1",
+      "items": 5,
+      "totalBudget": 1000,
+      "itemList": {
+        "items": [
+          {
+            "documentId": 11,
+            "itemName": "Item 5",
+            "itemValue": 150,
+            "itemColor": "#E4FE05"
+          },
+          {
+            "documentId": 12,
+            "itemName": "Item 1",
+            "itemValue": 100,
+            "itemColor": "#517B7F"
+          },
+          {
+            "documentId": 13,
+            "itemName": "Item 4",
+            "itemValue": 200,
+            "itemColor": "#9AFB8F"
+          },
+          {
+            "documentId": 14,
+            "itemName": "Item 3",
+            "itemValue": 300,
+            "itemColor": "#F3F004"
+          },
+          {
+            "documentId": 15,
+            "itemName": "Item 2",
+            "itemValue": 200,
+            "itemColor": "#0928DD"
+          }
+        ]
+      }
+    }
+  ]
+}

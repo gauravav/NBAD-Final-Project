@@ -1,0 +1,135 @@
+.monthly-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Monthly.css (or create a new CSS file) */
+
+/* Styling the select dropdown */
+.view-modal select,
+.year-modal select,
+.chart-type-modal select{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #005035; /* Text color */
+    appearance: none; /* Remove default arrow icon in Firefox */
+    -moz-appearance: none; /* Remove default arrow icon in Firefox */
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+/* Styling the dropdown arrow icon for non-Firefox browsers */
+.view-modal select::-ms-expand,
+.year-modal select::-ms-expand {
+    display: none;
+}
+
+/* Styling the dropdown arrow icon for Firefox */
+@-moz-document url-prefix() {
+    .view-modal select,
+    .year-modal select {
+        text-indent: 0.01px; /* Fix for Firefox not hiding the default arrow */
+    }
+}
+
+.actual-chart {
+    height: 80vh;
+    width: 100vw;
+    padding: 10px;
+}
+
+/* Adding a background color on hover */
+.view-modal select:hover,
+.year-modal select:hover {
+    background-color: #B29700;
+}
+
+/* Adding a background color on focus */
+.view-modal select:focus,
+.year-modal select:focus {
+    outline: none;
+    border-color: #005035;
+    box-shadow: 0 0 5px rgba(0, 80, 53, 0.5);
+}
+
+
+.loading-icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.budget-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.item-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.item-card:hover {
+    background-color: #f0f0f0;
+}
+
+.budget-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chartDiv {
+    width: 100%;
+    max-width: 60vw; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    overflow-x: auto; /* Enable horizontal scrolling when needed */
+    max-height: 80vh;
+}
+
+
+.option-bar {
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    padding: 10px;
+    color: #fff; /* Adjust the text color as needed */
+}
+
+.item-list {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    overflow-x: auto; /* Enable horizontal scrolling for tables */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+
