@@ -28,7 +28,7 @@ User-Friendly Interface: Our app is designed with simplicity and user-friendline
 
 ## Testing
 
-![Alt Text](Screenshots/Applitools-Visual Regression.png)
+![Alt Text](Screenshots/Applitools-Visual-Regression.png)
 
 
 
