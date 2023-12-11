@@ -10,9 +10,6 @@ Master Your Finances with Personal Budget.
   - [Features](#features)
   - [Testing](#testing)
   - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Acknowledgements](#acknowledgements)
   - [Contact](#contact)
 
 ## Description
@@ -28,8 +25,33 @@ User-Friendly Interface: Our app is designed with simplicity and user-friendline
 
 ## Testing
 
-![Alt Text](Screenshots/Applitools-Visual-Regression.png)
+#### Visual Regression Testing with Applitools 
+![Applitools](Screenshots/Applitools-Visual-Regression.png)
 
+
+
+#### End-to-End Testing with Cypress
+![Cypress](Screenshots/E2E-Testing.png)
+
+
+
+#### Unit Testing with Jest
+![Jest](Screenshots/Unit-Testing.png)
+
+
+## Usage
+Some important things to know about Personal Budget:
+- Please be sure to enter a valid email address because you will need to verify your email address to use the app.
+- You can add or delete budgets in dashboard while you can only view the budgets in the charts page.
+- You can create a new budget by clicking on the "Create New Budget" button on the home page.
+- You can add items to your budget by clicking on the cards on the dashboard.
+
+## Contact
+For any inquiries or feedback, feel free to reach out:
+
+- **Email:** gavula@uncc.edu
+- **Twitter:** [@avulagaurav](https://twitter.com/avulagaurav) ![Twitter](https://img.icons8.com/color/48/000000/twitter.png)
+- **LinkedIn:** [Gaurav Avula](https://www.linkedin.com/in/gauravavula/) ![LinkedIn](https://img.icons8.com/color/48/000000/linkedin.png)
 
 
 
