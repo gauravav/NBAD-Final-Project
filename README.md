@@ -1,6 +1,8 @@
-# Budget Management App
-
+# [Budget Management App](https://budgetmanagement.gauravavula.com/)
 Master Your Finances with Personal Budget.
+
+## Getting Started
+To start using the app, visit [Budget Management App](https://budgetmanagement.gauravavula.com/).
 
 ## Table of Contents
 
